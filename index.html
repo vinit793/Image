@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>GitHub wbsit</title>
+        <style>
+            header{
+                text-align: center;
+                background-color: lightgray;
+                margin: auto;
+            }
+            .Gallery {
+                 display: flex;
+                 justify-content:flex-start;
+                 flex-wrap: wrap;
+                 gap: 20px;
+                 margin: 40px auto;
+                 max-width: 900px;
+             }
+            .Gallery img{
+                width: 200px;
+                height: 200px;
+                border-radius: 12px;
+                object-fit: cover;
+                border-radius: 12px;
+            }
+            .Gallery img:hover{
+                border-color: blueviolet;
+                transform: scale(1.05);
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Image Gallery</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Image</a>
+            </nav>
+        </header>
+        <main>
+            <div class="Gallery">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfvfdzlviNRbd_jUoULocgggXfwo1hS1sjEQ&s" alt="1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYTRzLea_0zPoz0O7aO_fsZNjo8V5g5FEEpA&s" alt="2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCf6lkVPXx_i5XxO0TX7SmXQXoeKottPpK8Q&s" alt="3">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8FtfmsssmtxZf6kokdEamdzFmlwot4DvA6A&s" alt="4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjKEJN7WqAUA0bJ2TpCBVl0w8lc1DSr9wFIQ&s" alt="5">
+            </div>
+        </main>
+    </body>
+</html>
